@@ -575,7 +575,7 @@ public class EarthBlocks{
         solo = new ItemTurret("solo"){{
             localizedName = "Solo";
 		researchCostMultiplier = 2;
-            requirements(Category.turret, with(EarthItems.copper2, 10, EarthItems.iron, 25));
+            requirements(Category.turret, with(EarthItems.copper2, 10 * Time.time, EarthItems.iron, 25));
             ammo(
                 EarthItems.copper2,  new BasicBulletType(6f, 5){{
                     width = 7f;
