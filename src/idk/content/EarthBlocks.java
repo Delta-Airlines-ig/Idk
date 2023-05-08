@@ -53,6 +53,7 @@ import static arc.graphics.g2d.Draw.rect;
 import static arc.graphics.g2d.Draw.*;
 import static arc.graphics.g2d.Lines.*;
 import static arc.math.Angles.*;
+import static arc.util.Time.*;
 
 @SuppressWarnings("deprecation")
 public class EarthBlocks{
