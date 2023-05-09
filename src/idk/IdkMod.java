@@ -32,6 +32,9 @@ public class IdkMod extends Mod{
 
 //here?
     @Override
+    
+    Blocks.copperWall.requirements = with(Items.lead, 5);
+    
     public void loadContent(){
         Log.info("Hopefully everything works.");
        EarthLiquids.load();
