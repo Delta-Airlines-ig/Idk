@@ -33,7 +33,7 @@ public class IdkMod extends Mod{
 //here?
     @Override
     
-    Blocks.copperWall.requirements = with(Items.lead, 5);
+    Blocks.copperWall.requirements(Category.distribution, with(Items.lead, 1));
     
     public void loadContent(){
         Log.info("Hopefully everything works.");
